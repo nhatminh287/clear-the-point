@@ -11,7 +11,7 @@ const CircleCanvas = () => {
   const [gameMessage, setGameMessage] = useState("LET'S PLAY"); // Thông báo trò chơi
   const [intervalId, setIntervalId] = useState(null); // Lưu ID của interval để có thể dừng
 
-  const RADIUS = 25; // Bán kính cố định cho tất cả hình tròn
+  const RADIUS = 24; // Bán kính cố định cho tất cả hình tròn
 
   // Hàm tạo hình tròn ngẫu nhiên nhưng cùng bán kính
   const generateRandomCircles = (count, canvasWidth, canvasHeight) => {
